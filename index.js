@@ -140,14 +140,16 @@ switchBill.addEventListener("click", userBill);
 function userElon() {
   var urlParams = new URLSearchParams();
   urlParams.set("user", "user1");
-  window.location.href = "http://127.0.0.1:5500/?" + urlParams.toString();
+  window.location.href =
+    "https://darensiow.github.io/dynamic-twitter/?" + urlParams.toString();
 }
 
 // function to change URL to user 2
 function userBill() {
   var urlParams = new URLSearchParams();
   urlParams.set("user", "user2");
-  window.location.href = "http://127.0.0.1:5500/?" + urlParams.toString();
+  window.location.href =
+    "hhttps://darensiow.github.io/dynamic-twitter/?" + urlParams.toString();
 }
 
 tweetsContainer.innerHTML = `
